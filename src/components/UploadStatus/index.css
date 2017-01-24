@@ -1,0 +1,16 @@
+.UploadStatus {
+    margin: 40px;
+}
+
+.UploadStatus-text {
+    font-family: 'Arima Madurai', cursive;
+}
+
+.UploadStatus-percentage {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.action-button {
+    margin: 10px;
+}

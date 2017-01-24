@@ -1,0 +1,32 @@
+.DragCard {
+    height: 300px;
+    padding-top: 50px;
+    text-align: center;
+    border: 10px dotted red;
+    border-radius: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background: white;
+    transition: background .5s ease-out;
+    transition: border .5s ease-out;
+}
+
+/*
+ * Styling applied when some one is dragging a file over
+ * Pretty cool stuff
+ */
+.DragCard--drag {
+    border: 10px dotted green;
+    background: #ffcb2b;
+}
+
+.DragCard-text {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 30px;
+    margin: 60px;
+    transition: font-size .5s ease-in;
+}
+
+.DragCard-text--drag {
+    font-size: 40px;
+}
